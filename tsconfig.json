@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                          
+    "module": "commonjs",                    
+    "lib": ["es6"],                     
+    "allowJs": true,
+    "outDir": "build",                          
+    "rootDir": "./src",
+    "strict": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@SRC/*": ["src/*"],
+      "@TEST/*": ["test/*"]
+    },
+},
+"exclude": ["scripts"]
+}
